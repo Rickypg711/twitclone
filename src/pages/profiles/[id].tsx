@@ -5,7 +5,7 @@ import type {
   NextPage,
 } from "next";
 import Head from "next/head";
-import { ssgHelper } from "~/server/api/ssghelper";
+import { ssgHelper } from "~/server/api/ssgHelper";
 import { api } from "~/utils/api";
 import ErrorPage from "next/error";
 import Link from "next/link";
